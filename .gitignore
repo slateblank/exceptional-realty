@@ -1,0 +1,8 @@
+# Declare the global .gitignore
+git config --global core.excludesfile ~/.gitignore_global
+
+# Create the .gitignore_global file
+touch .gitignore_global
+
+# Go into edit mode so you can add the unwanted file listing
+vim .gitignore_global
